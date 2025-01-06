@@ -4,6 +4,8 @@
   "description": "Hugo-based website of the Genius project",
   "main": "index.js",
   "scripts": {
+    "build": "hugo-extended",
+    "server": "hugo-extended server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
