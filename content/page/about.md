@@ -4,6 +4,7 @@ subtitle: Why you'd want to go on a date with me
 comments: false
 params:
     socialShare: false
+draft: true
 menu:
     main:
         name: About
