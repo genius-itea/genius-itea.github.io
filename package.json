@@ -1,0 +1,22 @@
+{
+  "name": "genius-website",
+  "version": "1.0.0",
+  "description": "Hugo-based website of the Genius project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genius-itea/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/genius-itea/website/issues"
+  },
+  "homepage": "https://github.com/genius-itea/website#readme",
+  "devDependencies": {
+    "hugo-extended": "^0.140.2"
+  }
+}
