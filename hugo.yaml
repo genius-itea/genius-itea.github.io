@@ -2,8 +2,24 @@ baseURL: https://example.org/
 languageCode: en-us
 title: GENIUS
 
+pygmentsStyle: "trac"
+pygmentsUseClasses: true
+pygmentsCodeFences: true
+pygmentsCodefencesGuessSyntax: true
+#pygmentsUseClassic: true
+#pygmentOptions: "linenos=inline"
+
+Services:
+  #Disqus:
+    # Shortname: "XXX"
+  #googleAnalytics:
+    # id: "XXX"
+
 Params:
+  # Set a different text for the header on the home page
+  #homeTitle: "Beautiful Hugo Theme"
   subtitle: "An ITEA project"
+  mainSections: ["post","posts"]
   logo: "img/genius.png"
   # favicon: 
   dateFormat: "2006-01-02"
@@ -16,6 +32,20 @@ Params:
   delayDisqus: true
   showRelatedPosts: false
   hideAuthor: true
+
+  #cusdisID: "XXX" # Get your App id from cusdis.com
+  #gcse: "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  #disclaimerText: "The opinions expressed herein are my own personal opinions and do not represent my employer’s view in any way."
+
+  # bigimg:
+  # - src: "img/triangle.jpg"
+  #   desc: "Triangle"
+  # - src: "img/sphere.jpg"
+  #   desc: "Sphere"
+  #   # position: see values of CSS background-position.
+  #   position: "center top"
+  # - src: "img/hexagon.jpg"
+  #   desc: "Hexagon"
 
   author:
     github: genius-itea
