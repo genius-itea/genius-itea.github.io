@@ -1,8 +1,9 @@
 ---
+draft: true
 menu:
     main:
         name: Home
-        weight: 1 
+        weight: 1
 ---
 
 ## Front Page Content

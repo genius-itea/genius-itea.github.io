@@ -1,6 +1,6 @@
 ---
 date: '2025-01-06T17:16:05+01:00'
-draft: false
+draft: true
 title: 'Impressum'
 socialShare: false
 menu:
