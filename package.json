@@ -4,7 +4,8 @@
   "description": "Hugo-based website of the Genius project",
   "main": "index.js",
   "scripts": {
-    "build": "hugo-extended",
+    "build": "hugo-extended --gc --minify",
+    "hugo": "hugo-extended",
     "server": "hugo-extended server --poll 700ms",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
