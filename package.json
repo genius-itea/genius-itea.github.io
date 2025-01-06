@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "hugo-extended",
-    "server": "hugo-extended server",
+    "server": "hugo-extended server --poll 700ms",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
