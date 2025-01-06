@@ -2,6 +2,8 @@ baseURL: https://example.org/
 languageCode: en-us
 title: GENIUS
 
+# enableGitInfo: true
+
 pygmentsStyle: "trac"
 pygmentsUseClasses: true
 pygmentsCodeFences: true
@@ -19,11 +21,13 @@ Params:
   # Set a different text for the header on the home page
   #homeTitle: "Beautiful Hugo Theme"
   subtitle: "An ITEA project"
+  since: 2024
+
   mainSections: ["post","posts"]
   logo: "img/genius.png"
   # favicon: 
   dateFormat: "2006-01-02"
-  commit: true
+  commit: false
   rss: true
   readingTime: false
   wordCount: true
@@ -31,7 +35,9 @@ Params:
   socialShare: true
   delayDisqus: true
   showRelatedPosts: false
-  hideAuthor: true
+  hideAuthor: false
+
+  selfHosted: true
 
   #cusdisID: "XXX" # Get your App id from cusdis.com
   #gcse: "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
