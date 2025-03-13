@@ -37,13 +37,25 @@ jobs:
       - name: Install Node.js dependencies with NPM
         run: "npm ci"
 
+      - name: Get URL of pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: url
+        run: |
+          {
+            echo "URL<<EOF"
+            gh api "repos/$GITHUB_REPOSITORY/pages" --jq ".html_url"
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production
           TZ: Europe/Berlin
         run: |
-          npm run build
+          npm run build -- \
+            --baseURL "${{ steps.url.outputs.URL }}"
                
       - name: Deploy to pages
         uses: JamesIves/github-pages-deploy-action@v4.7.3
