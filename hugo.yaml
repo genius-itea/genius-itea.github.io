@@ -97,3 +97,11 @@ menu:
   main:
   - name: About us
     identifier: about
+    weight: 10
+  - name: Results
+    identifier: results
+    weight: 9
+  - name: Exploitable Results
+    parent: results
+    weight: 3
+    url: https://itea4.org/exploitable-results/page-all.html?query=Genius&search=Search
