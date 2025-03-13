@@ -1,6 +1,6 @@
 ---
 date: '2025-01-06T17:52:46+01:00'
-draft: false
+draft: true
 title: 'Genius ITEA4 Project'
 url: "/"
 ---
