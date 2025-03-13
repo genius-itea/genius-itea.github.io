@@ -16,3 +16,19 @@ Or you can delete these file if you don't need it.
 <!-- or you could include some additional css libraries:
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.css" integrity="sha256-I1UoFd33KHIydu88R9owFaQWzwkiZV4hXXug5aYaM28=" crossorigin="anonymous" />
 -->
+{{ $scssFile := resources.Get "css/genius-main.scss" }}
+{{ $opts := dict
+    "enableSourceMap" (not hugo.IsProduction)
+    "outputStyle" (cond hugo.IsProduction "compressed" "expanded")
+    "transpiler" "dartsass"
+}}
+{{ $css := $scssFile | css.Sass $opts }}
+{{ if hugo.IsProduction }}
+  {{ with $css | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity=".Data.Integrity" crossorigin="anonymous">
+  {{ end }}
+{{ else }}
+  {{ with $css }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+{{ end }}
