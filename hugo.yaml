@@ -93,5 +93,7 @@ module:
   - path: "github.com/halogenica/beautifulhugo"
 theme: "github.com/halogenica/beautifulhugo"
 
-# menu:
-#   main:
+menu:
+  main:
+  - name: About us
+    identifier: about

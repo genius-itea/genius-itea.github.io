@@ -1,0 +1,13 @@
+---
+date: '2025-03-13T15:34:00+01:00'
+draft: false
+title: 'Partners'
+layout: partners
+
+menu:
+    main:
+        name: Partners
+        parent: about
+---
+
+The Genius consortia consistis of xx partners from yy countries.
