@@ -13,3 +13,8 @@ menu:
 
 ## How to reach the project coordinator?
 
+![Robin Gröpler](RobinGroepler.jpg)
+
+**Robin Gröpler**, Project Coordinator  
+Institut für Automation und Kommunikation e. V., Germany  
+{firstname.lastname}@ifak.eu
