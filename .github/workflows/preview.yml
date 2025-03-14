@@ -16,7 +16,7 @@ jobs:
   deploy-preview:
     name: Deploy preview of PR
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: write
       pull-requests: write
@@ -32,7 +32,7 @@ jobs:
         run: |
           {
             echo "URL<<EOF"
-            gh api "repos/$GITHUB_REPOSITORY/pages" --jq ".html_url"
+            gh api "repos/$GITHUB_REPOSITORY/pages" --jq ".html_url" | sed 's,/*$,,'
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
@@ -40,6 +40,7 @@ jobs:
         if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
         run: |
           npm install
+          echo "Using base URL ${{ steps.url.outputs.URL }}"
           npm run build -- \
             --baseURL "${{ steps.url.outputs.URL }}/pr-preview/pr-${{ github.event.number }}"
 
