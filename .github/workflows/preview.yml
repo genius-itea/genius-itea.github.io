@@ -1,0 +1,44 @@
+name: Deploy PR previews
+
+on:
+  pull_request:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - closed
+
+concurrency: 
+    group: preview-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+  deploy-preview:
+    name: Deploy preview of PR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+    
+      - name: Get URL of pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        id: url
+        run: |
+          {
+            echo "URL<<EOF"
+            gh api "repos/$GITHUB_REPOSITORY/pages" --jq ".html_url"
+            echo EOF
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Install and Build
+        if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
+        run: |
+          npm install
+          npm run build -- \
+            --baseURL "${{ steps.url.outputs.URL }}/pr-preview/pr-${{ github.event.number }}"
+
+      - name: Deploy preview
+        uses: rossjrw/pr-preview-action@v1
+        with:
+          source-dir: ./public/
