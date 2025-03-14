@@ -32,3 +32,5 @@ Or you can delete these file if you don't need it.
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{ end }}
 {{ end }}
+
+<meta name="robots" content="{{ cond hugo.IsProduction "index,follow" "noindex,follow" }}" />
