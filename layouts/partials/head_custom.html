@@ -34,3 +34,18 @@ Or you can delete these file if you don't need it.
 {{ end }}
 
 <meta name="robots" content="{{ cond hugo.IsProduction "index,follow" "noindex,follow" }}" />
+
+<!--
+{{ "<!-- " | safeHTML }}
+Type: {{ page.Type}}
+Layout: {{ page.Layout }}
+Kind: {{ page.Kind }}
+
+{{ .Pages }}
+{{ printf "%#v " .Pages }}
+Pages:
+{{ range .Pages }}
+- {{ . }}
+{{ end }}
+{{ "-->" | safeHTML }}
+-->
