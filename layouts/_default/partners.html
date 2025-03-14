@@ -3,15 +3,15 @@
     <div class="row">
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         {{ with .Content }}
-          <div class="well">
+          <!-- <div class="well"> -->
             {{.}}
-          </div>
+          <!-- </div> -->
         {{ end }}
         <div class="partners-list">
           {{ range (.Pages.GroupByParam "nationality" "asc") }}
             <h2 class="country">{{ .Key | title }}</h2>
             <div class="partner-list-per-country">
-            {{ range .Pages }}
+            {{ range .Pages.ByTitle }}
                 <div class="partner">
                     <div class="image">
                         {{ $page := . }}
