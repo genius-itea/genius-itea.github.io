@@ -8,6 +8,7 @@ menu:
     main:
         name: Partners
         parent: about
+        weight: 1
 ---
 
 The Genius consortia consistis of xx partners from yy countries.
