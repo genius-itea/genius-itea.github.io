@@ -57,12 +57,11 @@ jobs:
           keywords: depends on, blocked by
 
           # (Optional) A custom comment body. It supports `{{ dependencies }}` token.
-          comment: >
+          comment: |
             ⏳ Allright! Looks like we need to wait for some dependencies. This PR/issue depends on:
 
             {{ dependencies }}
 
-            💡 Don't worry, I will continue watching the list above and keep this comment updated.
-            To add or remove dependencies, please  update the issue/PR description.
+            💡 Don't worry, I will continue watching the list above and keep this comment updated. To add or remove dependencies, please  update the issue/PR description.
 
             By **[Dependent Issues](https://github.com/z0al/dependent-issues)** (🤖). Happy coding!
