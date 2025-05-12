@@ -100,7 +100,8 @@ menu:
     weight: 10
   - name: Results
     identifier: results
-    weight: 9
+    weight: 8
+  
   - name: Exploitable Results
     parent: results
     weight: 3
