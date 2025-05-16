@@ -1,0 +1,10 @@
+# Default code owner rule
+*          @robin-ifak @otto-ifak
+
+# Technical exceptions
+/.github    @robin-ifak @otto-ifak @christian-wolf-eks
+/layouts    @robin-ifak @otto-ifak @christian-wolf-eks
+/static     @robin-ifak @otto-ifak @christian-wolf-eks
+/go.mod     @robin-ifak @otto-ifak @christian-wolf-eks
+/go.sum     @robin-ifak @otto-ifak @christian-wolf-eks
+/package*.json  @robin-ifak @otto-ifak @christian-wolf-eks
