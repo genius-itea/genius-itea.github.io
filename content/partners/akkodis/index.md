@@ -4,7 +4,7 @@ draft: false
 title: 'Akkodis'
 params:
     nationality: Germany
-    # link: https://example.com
+    link: "https://www.akkodis.com/en/about/innovationInformation"
     national_coordinator: false
-    # logo: logo.png
+    logo: AKKODIS_Logo_POS_RGB.png
 ---
