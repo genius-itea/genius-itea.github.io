@@ -11,4 +11,4 @@ menu:
         weight: 1
 ---
 
-The Genius consortia consistis of xx partners from yy countries.
+The Genius consortia consistis of 31 partners from 8 countries.
