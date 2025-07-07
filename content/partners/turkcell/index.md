@@ -1,10 +1,10 @@
 ---
-date: '2025-03-13T15:57:18+01:00'
+date: '2025-07-07T14:17:50+02:00'
 draft: false
-title: 'Dakik Yazilim Teknolojileri'
+title: 'Turkcell Teknoloji'
 params:
     nationality: Türkiye
     # link: https://example.com
-    national_coordinator: true
+    national_coordinator: false
     # logo: logo.png
 ---

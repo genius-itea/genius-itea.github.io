@@ -1,9 +1,10 @@
 ---
-date: '2025-03-13T15:57:18+01:00'
+date: '2025-07-07T14:20:58+02:00'
 draft: false
-title: 'Dakik Yazilim Teknolojileri'
+title: >-
+    King's College London
 params:
-    nationality: Türkiye
+    nationality: United Kingdom
     # link: https://example.com
     national_coordinator: true
     # logo: logo.png

@@ -1,9 +1,9 @@
 ---
-date: '2025-03-13T15:57:18+01:00'
+date: '2025-07-07T14:03:21+02:00'
 draft: false
-title: 'Dakik Yazilim Teknolojileri'
+title: 'Ontario Tech University'
 params:
-    nationality: Türkiye
+    nationality: Canada
     # link: https://example.com
     national_coordinator: true
     # logo: logo.png

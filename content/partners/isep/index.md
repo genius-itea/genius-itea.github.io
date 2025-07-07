@@ -5,6 +5,6 @@ title: 'Instituto Superior de Engenharia do Porto'
 params:
     nationality: Portugal
     link: https://www.isep.ipp.pt/Home
-    national_coordinator: false
+    national_coordinator: true
     logo: isep_wordmark_vintage.png
 ---
