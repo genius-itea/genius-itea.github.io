@@ -1,10 +1,10 @@
 ---
 date: '2025-07-07T14:15:51+02:00'
 draft: false
-title: 'Loop Future - Desenvolvimento de Soluções Tecnológicas, Unipessoal, lda'
+title: 'Loop Future – Desenvolvimento de Soluções Tecnológicas S.A.'
 params:
     nationality: Portugal
-    # link: https://example.com
+    link: https://www.theloop.pt
     national_coordinator: false
-    # logo: logo.png
+    logo: LoopFuture-logo-CMYK.jpg
 ---

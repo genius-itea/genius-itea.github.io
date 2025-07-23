@@ -4,7 +4,7 @@ draft: false
 title: 'Fraunhofer FOKUS'
 params:
     nationality: Germany
-    # link: https://example.com
+    link: https://www.fokus.fraunhofer.de/en.html
     national_coordinator: false
-    # logo: logo.png
+    logo: fokus.png
 ---

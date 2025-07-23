@@ -4,7 +4,7 @@ draft: false
 title: 'IOTIQ'
 params:
     nationality: Germany
-    # link: https://example.com
+    link: https://www.iotiq.de
     national_coordinator: false
-    # logo: logo.png
+    logo: iotiq-logo-1.png
 ---
