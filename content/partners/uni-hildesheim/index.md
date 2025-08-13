@@ -4,7 +4,7 @@ draft: false
 title: 'Uni Hildesheim'
 params:
     nationality: Germany
-    # link: https://example.com
+    link: https://sse.uni-hildesheim.de/en/fb4/institutes/ifi/software-systems-engineering-sse/
     national_coordinator: false
     logo: Logo.png
 ---
