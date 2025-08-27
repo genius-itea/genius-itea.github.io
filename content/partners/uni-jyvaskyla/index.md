@@ -6,5 +6,5 @@ params:
     nationality: Finland
     # link: https://example.com
     national_coordinator: true
-    # logo: logo.png
+    logo: logo.png
 ---

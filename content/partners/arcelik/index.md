@@ -6,5 +6,5 @@ params:
     nationality: Türkiye
     # link: https://example.com
     national_coordinator: false
-    # logo: logo.png
+    logo: Logo.png
 ---
