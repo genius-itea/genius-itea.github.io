@@ -7,7 +7,8 @@
     "build": "hugo-extended --gc --minify",
     "hugo": "hugo-extended",
     "server": "hugo-extended server --poll 700ms",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vendor": "hugo-extended mod vendor"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/genius-itea/website#readme",
   "devDependencies": {
-    "hugo-extended": "^0.140.2"
+    "hugo-extended": "^0.140.2",
+    "sass-embedded": "^1.85.1"
   }
 }
