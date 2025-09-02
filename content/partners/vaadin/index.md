@@ -6,5 +6,5 @@ params:
     nationality: Finland
     # link: https://example.com
     national_coordinator: false
-    # logo: logo.png
+    logo: Vaadin_Logo_Black.png
 ---
