@@ -42,6 +42,7 @@ jobs:
           npm install
           echo "Using base URL ${{ steps.url.outputs.URL }}"
           npm run build -- \
+            --environment stage \
             --baseURL "${{ steps.url.outputs.URL }}/pr-preview/pr-${{ github.event.number }}"
 
       - name: Deploy preview
