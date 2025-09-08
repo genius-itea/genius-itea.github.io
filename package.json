@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/genius-itea/website#readme",
   "devDependencies": {
-    "hugo-extended": "^0.140.2"
+    "hugo-extended": "^0.149.1"
   }
 }
