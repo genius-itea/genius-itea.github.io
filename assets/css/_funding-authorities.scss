@@ -1,0 +1,16 @@
+.funding-agency {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 45px;
+
+    .image {
+        flex: 400px 0 0;
+    }
+    .title {
+        font-weight: bold;
+        font-size: x-large;
+    }
+    .country {
+        font-style: italic;
+    }
+}
