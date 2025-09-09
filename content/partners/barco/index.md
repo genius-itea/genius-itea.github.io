@@ -6,5 +6,5 @@ params:
     nationality: Belgium
     #link: https://example.com
     national_coordinator: true
-    # logo: logo.png
+    logo: BARCO_rgb_primarylogo_red.png
 ---
