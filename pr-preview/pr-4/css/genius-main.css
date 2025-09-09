@@ -28,4 +28,20 @@
   font-size: larger;
 }
 
+.funding-agency {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 45px;
+}
+.funding-agency .image {
+  flex: 400px 0 0;
+}
+.funding-agency .title {
+  font-weight: bold;
+  font-size: x-large;
+}
+.funding-agency .country {
+  font-style: italic;
+}
+
 /*# sourceMappingURL=genius-main.css.map */
