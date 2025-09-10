@@ -12,6 +12,8 @@ cascade:
     - build:
         list: local
         render: never
+build:
+    render: always
 ---
 
 
