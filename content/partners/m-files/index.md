@@ -6,5 +6,5 @@ params:
     nationality: Finland
     # link: https://example.com
     national_coordinator: false
-    # logo: logo.png
+    logo: M-Files-Logo-No-Tagline-Full-Color-360x84px.png
 ---

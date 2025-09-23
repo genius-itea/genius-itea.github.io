@@ -4,7 +4,7 @@ draft: false
 title: 'Casablanca'
 params:
     nationality: Austria
-    link: https://www.casablanca.at/
+    link: https://research.casablanca.at/
     national_coordinator: false
-    logo: Casablanca_LOGO_2022_RGB.png
+    logo: casablanca_logo_RGB_darkblue.png
 ---
