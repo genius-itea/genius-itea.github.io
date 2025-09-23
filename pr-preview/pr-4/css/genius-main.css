@@ -20,6 +20,8 @@
 }
 .partners-list .partner-list-per-country .partner .image img {
   max-height: 200px;
+  background-color: white;
+  padding: 8px;
 }
 .partners-list .partner-list-per-country .partner .name {
   text-align: center;
