@@ -6,5 +6,5 @@ params:
     nationality: United Kingdom
     # link: https://example.com
     national_coordinator: false
-    # logo: logo.png
+    logo: BTGroup_Logo_Master.png
 ---

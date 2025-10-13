@@ -6,5 +6,5 @@ params:
     nationality: Türkiye
     # link: https://example.com
     national_coordinator: true
-    # logo: logo.png
+    logo: dakik-logo.jpg
 ---

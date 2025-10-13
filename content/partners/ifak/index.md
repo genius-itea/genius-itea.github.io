@@ -6,5 +6,5 @@ params:
     nationality: Germany
     # link: https://example.com
     national_coordinator: true
-    # logo: logo.png
+    logo: ifak_Logo.png
 ---
