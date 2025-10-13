@@ -6,6 +6,6 @@ draft: false
 params:
     logo: Business Finland logo.jpg
     country: Finland
-    # url: https://
+    url: https://www.businessfinland.fi/en/for-finnish-customers/services/programs/european-programs/eureka
 ---
 

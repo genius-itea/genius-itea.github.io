@@ -6,6 +6,6 @@ date: '2025-09-09'
 params:
     logo: VLAIO_Logo.png
     country: Belgium
-    # url: https://
+    url: https://www.vlaio.be/en/subsidies/subsidies-international-cooperation-related-innovation-and-rd/networks/itea
 ---
 
