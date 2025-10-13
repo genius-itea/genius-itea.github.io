@@ -2,10 +2,10 @@
 title: ITEA
 date: '2025-09-09'
 weight: -10
-draft: true
+draft: false
 params:
-    #logo: VLAIO_Logo.png
-    country: Europe
+    logo: "ITEA 4 Logo.png"
+    country: ""
     # url: https://
 ---
 
