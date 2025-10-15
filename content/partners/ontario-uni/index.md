@@ -6,5 +6,5 @@ params:
     nationality: Canada
     # link: https://example.com
     national_coordinator: true
-    # logo: logo.png
+    logo: OntarioTech.png
 ---
