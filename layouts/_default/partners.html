@@ -1,0 +1,46 @@
+{{ define "main" }}
+  <div class="container" role="main">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {{ with .Content }}
+          <!-- <div class="well"> -->
+            {{.}}
+          <!-- </div> -->
+        {{ end }}
+        <div class="partners-list">
+          {{ range (.Pages.GroupByParam "nationality" "asc") }}
+            <h2 class="country">{{ .Key | title }}</h2>
+            <div class="partner-list-per-country">
+            {{ range .Pages.ByTitle }}
+                <div class="partner">
+                    <div class="image">
+                        {{ $page := . }}
+                        {{ with .Params.logo }}
+                        {{ $logo := ($page.Resources.Get .).Fit "400x300" | fingerprint }}
+                        <img alt="Logo {{ $page.Title }}" src="{{ $logo.RelPermalink }}">
+                        {{ end }}
+                    </div>
+                    <div class="name">
+                        {{ with .Params.link }}
+                        <a href="{{ . }}" target="_blank">
+                        {{ end }}
+                        <span class="title">{{ .Title }}</span>
+                        {{ with .Params.link }}
+                        </a>
+                        {{ end }}
+                        {{ with .Params.national_coordinator }}
+                        <sup>National coordinator</sup>
+                        {{ end }}
+                    </div>
+                </div>
+            {{ end }}
+            </div>
+          {{ end }}
+          {{ range where .Pages "Params.nationality" "eq" nil }}
+                {{ warnf "No nationality found for partner %s." .RelPermalink }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
