@@ -11,5 +11,5 @@ menu:
 ---
 
 The knowledge collected from WP2 is available as a separate
-**{{<genius/blank_link href="wp2/knowledgebase.html">}}sub-page{{</genius/blank_link>}}**
+**{{<genius/blank_link href="https://genius-itea.github.io/GENIUS-Technology-Hub/#/">}}sub-page{{</genius/blank_link>}}**
 as a combined knowldge base.
