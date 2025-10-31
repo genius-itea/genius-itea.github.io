@@ -1,0 +1,4 @@
+<a
+    target="{{ with .Get "target" }}{{ . }}{{ else }}_blank{{end}}"
+    href="{{ relURL (.Get "href") }}"
+    rel="{{ with .Get "rel" }}{{ . }}{{ else }}noopener{{ end }}">{{ .Inner }}</a>
