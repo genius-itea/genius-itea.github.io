@@ -1,11 +1,11 @@
 ---
 date: '2025-05-08T11:20:23+02:00'
 draft: false
-title: 'WP2 Knowlegde Base'
+title: 'WP2 Knowlegde Hub'
 # type: docsify
 menu:
     main:
-        name: "WP2 Knowledge"
+        name: "Knowledge Hub"
         #parent: about
         weight: 9
 ---
