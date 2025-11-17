@@ -4,7 +4,7 @@ draft: false
 title: 'Solita Oy'
 params:
     nationality: Finland
-    # link: https://example.com
+    link: https://www.solita.fi/
     national_coordinator: false
-    # logo: logo.png
+    logo: SOLITA_BLACK_VER_RGB.png
 ---
