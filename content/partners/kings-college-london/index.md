@@ -5,7 +5,7 @@ title: >-
     King's College London
 params:
     nationality: United Kingdom
-    # link: https://example.com
+    link: http://kcl.ac.uk/
     national_coordinator: true
-    # logo: logo.png
+    logo: King_s_College_London_logo.png
 ---
