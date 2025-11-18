@@ -45,6 +45,10 @@ jobs:
             --environment stage \
             --baseURL "${{ steps.url.outputs.URL }}/pr-preview/pr-${{ github.event.number }}"
 
+      - name: Drop .nojekyll for previews
+        if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
+        run: rm public/.nojekyll
+
       - name: Deploy preview
         uses: rossjrw/pr-preview-action@v1
         with:
