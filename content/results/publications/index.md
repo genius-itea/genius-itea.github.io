@@ -8,8 +8,7 @@ menu:
         name: Publications
         parent: results
         weight: 1
-aliases:
-    - /pubs
+url: /pubs
 ---
 
 Here is a list of the publications generated throughout the GENIUS project.
