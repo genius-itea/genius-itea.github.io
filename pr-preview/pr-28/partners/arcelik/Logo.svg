@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="412.04434mm"
+   height="144.63885mm"
+   viewBox="0 0 412.04434 144.63885"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="Logo.svg"
+   inkscape:export-filename="./Logo.png"
+   inkscape:export-xdpi="72.000023"
+   inkscape:export-ydpi="72.000023">
+  <defs
+     id="defs2">
+    <clipPath
+       id="clipPath831"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         inkscape:connector-curvature="0"
+         id="path829"
+         d="M 0,410 H 1168 V 0 H 0 Z" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="778.66644"
+     inkscape:cy="273.33325"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1918"
+     inkscape:window-height="1024"
+     inkscape:window-x="1913"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(154.6174,-76.513904)">
+    <g
+       transform="matrix(0.35277777,0,0,-0.35277777,-154.6174,221.15279)"
+       inkscape:label="BEKO - LOGO"
+       id="g823">
+      <g
+         id="g825">
+        <g
+           clip-path="url(#clipPath831)"
+           id="g827">
+          <g
+             transform="translate(396.8386,184.7981)"
+             id="g833">
+            <path
+               inkscape:connector-curvature="0"
+               id="path835"
+               style="fill:#002281;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 c 2.318,24.176 17.549,58.619 55.627,58.619 41.72,0 51.322,-36.761 51.322,-58.619 z m 190.39,-26.163 c 0,71.866 -35.429,144.725 -129.134,144.725 -100.99,0 -146.683,-81.139 -146.683,-154.661 0,-90.743 56.62,-148.037 154.961,-148.037 39.071,0 75.162,5.962 104.962,17.884 l -11.92,61.268 c -24.171,-7.617 -49.335,-11.922 -80.129,-11.922 -42.051,0 -78.805,17.552 -81.785,54.975 H 187.41 c 1.324,6.624 2.98,20.202 2.98,35.768" />
+          </g>
+          <g
+             transform="translate(902.4476,7.2859)"
+             id="g837">
+            <path
+               inkscape:connector-curvature="0"
+               id="path839"
+               style="fill:#002281;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 h -116.552 l -92.38,134.79 V 0 h -90.063 v 379.863 h 90.063 V 169.564 l 79.467,120.218 H -12.582 L -128.141,152.011 Z" />
+          </g>
+          <g
+             transform="translate(1017.3437,64.9111)"
+             id="g841">
+            <path
+               inkscape:connector-curvature="0"
+               id="path843"
+               style="fill:#002281;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 c -38.409,0 -59.6,37.092 -59.6,87.1 0,42.722 16.224,87.431 59.6,87.431 41.058,0 57.282,-44.046 57.282,-87.431 C 57.282,34.774 35.098,0 0,0 m 2.318,238.449 c -93.043,0 -154.961,-59.943 -154.961,-153.667 0,-93.724 65.229,-149.693 149.994,-149.693 77.812,0 153.305,48.683 153.305,154.992 0,87.1 -59.269,148.368 -148.338,148.368" />
+          </g>
+          <g
+             transform="translate(90.0627,69.3821)"
+             id="g845">
+            <path
+               inkscape:connector-curvature="0"
+               id="path847"
+               style="fill:#002281;fill-opacity:1;fill-rule:nonzero;stroke:none"
+               d="m 0,0 c 8.94,-1.325 19.536,-1.325 35.098,-1.325 41.058,0 77.811,15.566 77.811,57.957 0,40.735 -36.422,56.631 -81.784,56.631 H 0 Z m 0,178.174 h 29.8 c 47.68,0 73.507,19.871 73.507,49.677 0,30.469 -23.509,46.697 -64.567,46.697 -19.535,0 -31.124,-1.325 -38.74,-2.65 z m -90.063,153.999 c 23.84,4.636 72.183,8.445 117.545,8.445 55.627,0 89.401,-5.464 118.539,-22.686 28.144,-14.903 48.342,-42.391 48.342,-78.821 0,-35.767 -20.86,-69.216 -66.222,-85.775 v -1.325 c 46.024,-12.585 80.129,-47.027 80.129,-99.022 0,-36.43 -16.887,-64.911 -41.804,-85.31 C 137.081,-55.638 88.076,-68.72 8.278,-68.72 c -44.7,0 -78.143,1.159 -98.341,4.14 z" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
