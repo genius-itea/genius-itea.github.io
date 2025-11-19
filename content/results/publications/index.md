@@ -11,13 +11,17 @@ menu:
 url: /pubs
 ---
 
-Here is a list of the publications generated throughout the GENIUS project.
+Here you will find a list of publications produced as part of the GENIUS project.
 
 ## 2025
 
-**The Future of Generative AI in Software Engineering: A Vision from Industry and Academia in the European GENIUS Project**.
-The GENIUS project consotium.
-R. Gröpler, S. Klepke, J. Johns, A. Dreschinski, K. Schmid, B. Dornauer, E. Tüzün, J. Noppen, M. R. Mousavi, Y. Tang, J. Viehmann, S. Ş. Aslangül, B. Seuk Lee, A. Ziolkowski, E. Zie.
-2025-10.
+Gröpler, R., Klepke, S., Johns, J., Dreschinski, A., Schmid, K., Dornauer, B., Tüzün, E., Noppen, J., Mousavi, M. R., Tang, Y., Viehmann, J., Şirin Aslangül, S., Lee, B. S., Ziolkowski, A., & Zie, E.
+
+**The Future of Generative AI in Software Engineering: A Vision from Industry and Academia in the European GENIUS Project**
+
+Accepted for the 2nd IEEE/ACM International Conference on AI-powered Software (AIware 2025), Seoul, South Korea, Nov. 19-20, 2025.
+
+<img src="vision-paper.jpg" alt="vision-paper" width="100"/>
+
 [Download paper](vision-paper.pdf)
 
