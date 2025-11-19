@@ -21,7 +21,7 @@ Gröpler, R., Klepke, S., Johns, J., Dreschinski, A., Schmid, K., Dornauer, B., 
 
 Accepted for the 2nd IEEE/ACM International Conference on AI-powered Software (AIware 2025), Seoul, South Korea, Nov. 19-20, 2025.
 
-<img src="vision-paper.jpg" alt="vision-paper" width="100"/>
+<img src="vision-paper.jpg" alt="vision-paper" width="200"/>
 
 [Download paper](vision-paper.pdf)
 
