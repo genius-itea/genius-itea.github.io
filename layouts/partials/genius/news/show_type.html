@@ -1,0 +1,15 @@
+{{ if eq .type "publication" }}
+    <span class="news-meta-symbol-publication">
+        Publication
+    </span>
+{{ else if eq .type "event" }}
+    <span class="news-meta-symbol-event">
+        Event
+    </span>
+{{ else if eq .type "presentation" }}
+    <span class="news-meta-symbol-presentation">
+        Presentation
+    </span>    
+{{ else }}
+{{ errorf "Cannot find type %s for news in %s." .type .page }}
+{{ end }}

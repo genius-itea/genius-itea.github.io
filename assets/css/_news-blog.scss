@@ -1,0 +1,21 @@
+.news-meta {
+    display: flex;
+    justify-content: space-between;
+
+    .news-meta-symbol span {
+        border: 1px solid;
+        border-radius: 10px;
+        box-sizing: border-box;
+        padding: 1.5px 7.5px;
+
+        &.news-meta-symbol-publication {
+            // color: red;
+        }
+        &.news-meta-symbol-event {
+            // color: red;
+        }
+        &.news-meta-symbol-presentation {
+            // color: red;
+        }
+    }
+}
