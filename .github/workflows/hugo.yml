@@ -58,7 +58,7 @@ jobs:
             --baseURL "${{ steps.url.outputs.URL }}"
                
       - name: Deploy to pages
-        uses: JamesIves/github-pages-deploy-action@v4.7.4
+        uses: JamesIves/github-pages-deploy-action@v4.7.6
         with:
           folder: ./public
           clean-exclude: pr-preview/
