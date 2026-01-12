@@ -10,6 +10,8 @@ updates:
         update-types:
           - minor
           - patch
+        exclude-patterns:
+          - "sass-embedded"
   - package-ecosystem: github-actions
     directory: /
     schedule:
