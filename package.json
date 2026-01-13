@@ -26,5 +26,9 @@
   },
   "overrides": {
     "sass": "0.0.0-do-never-install"
+  },
+  "optionalDependencies": {
+    "sass-embedded-linux-x64": "^1.97.2",
+    "sass-embedded-win32-x64": "^1.97.2"
   }
 }
