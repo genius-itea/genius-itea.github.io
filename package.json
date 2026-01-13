@@ -23,5 +23,8 @@
   "devDependencies": {
     "hugo-extended": "^0.154.5",
     "sass-embedded": "^1.97.2"
+  },
+  "overrides": {
+    "sass": "0.0.0-do-never-install"
   }
 }
