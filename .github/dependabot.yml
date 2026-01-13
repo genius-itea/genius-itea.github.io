@@ -5,13 +5,14 @@ updates:
     schedule:
       interval: weekly
     groups:
+      sass:
+        applies-to: version-updates
+        patterns:
+          - "sass-embedded*"
       minor:
         applies-to: version-updates
-        update-types:
-          - minor
-          - patch
         exclude-patterns:
-          - "sass-embedded"
+          - "sass-embedded*"
   - package-ecosystem: github-actions
     directory: /
     schedule:
