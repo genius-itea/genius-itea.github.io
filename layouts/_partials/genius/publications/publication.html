@@ -15,9 +15,11 @@
             {{ with .Params.kind }}
                 {{ if eq . "paper" }}
                     {{ with $.Params.booktitle }}{{ . }}. {{ end }}
+                    {{ with $.Params.publisher }}{{ . }}. {{ end }}
                     {{ with $.Params.pages }}pp. {{ . }}. {{ end }}
                     {{ with $.Params.location }}{{ . }}. {{ end }}
                     {{ with $.Params.publicationDate }}{{ . }}. {{ end }}
+                    {{ with $.Params.url }}<a href="{{ . }}" target="_blank">Weblink</a>. {{ end }}
                 {{ end }}
             {{ else }}
                 {{ warnf "Publication in %s has no parameter `kind` set. Please fix it." . }}
@@ -28,12 +30,12 @@
                 DOI: <a href="https://doi.org/{{ . }}" target="_blank">{{ . }}</a>
             </div>
         {{ end }}
-        <div class="download">
-            {{ with .Params.download }}
+        {{ with .Params.download }}
+            <div class="download">
                 {{ $res := ($.Resources.Get .) }}
                 <a href="{{ $res.Permalink }}" target="_blank">Download publication</a>
-            {{ end }}
-        </div>
+            </div>
+        {{ end }}
     </div>
     {{ with .Params.image }}
         <div class="image">

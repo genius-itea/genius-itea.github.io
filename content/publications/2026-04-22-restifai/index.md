@@ -15,8 +15,8 @@ params:
     booktitle: 'Proceedings of the 48th International Conference on Software Engineering (ICSE 2026)'
     publisher: 'IEEE'
     location: 'Rio de Janeiro, Brazil'
-    pages: ''
-    doi: ''
-    url: ''
-    image: ''
+    # pages: ''
+    # doi: ''
+    # url: ''
+    # image: ''
 ---

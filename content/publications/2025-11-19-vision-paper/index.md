@@ -26,8 +26,8 @@ params:
     booktitle: 'Proceedings of the 2nd IEEE/ACM International Conference on AI-powered Software (AIware 2025)'
     publisher: 'IEEE'
     location: 'Seoul, South Korea'
-    pages: ''
-    doi: ''
+    # pages: ''
+    # doi: ''
     url: 'vision-paper.pdf'
     image: 'vision-paper.jpg'
     download: vision-paper.pdf
