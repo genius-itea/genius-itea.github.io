@@ -1,0 +1,108 @@
+.partners-list .country {
+  margin: 30px 0 20px 0;
+}
+.partners-list .partner-list-per-country {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 75px;
+  column-gap: 40px;
+}
+.partners-list .partner-list-per-country .partner {
+  flex: 30% 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+.partners-list .partner-list-per-country .partner .image {
+  flex: auto 0 0;
+  width: 100%;
+  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+}
+.partners-list .partner-list-per-country .partner .image::after {
+  content: "";
+  padding-bottom: 100%;
+}
+.partners-list .partner-list-per-country .partner .image img {
+  position: absolute;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  background-color: white;
+  padding: 8px;
+}
+.partners-list .partner-list-per-country .partner .name {
+  text-align: center;
+}
+.partners-list .partner-list-per-country .partner .title {
+  font-size: larger;
+}
+
+.funding-agency {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 75px;
+}
+.funding-agency .image {
+  flex: 400px 0 0;
+  background-color: white;
+  padding: 15px;
+}
+.funding-agency .title {
+  font-weight: bold;
+  font-size: x-large;
+}
+.funding-agency .country {
+  font-style: italic;
+}
+
+.news-meta {
+  display: flex;
+  justify-content: space-between;
+}
+.news-meta .news-meta-symbol span {
+  border: 1px solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 1.5px 7.5px;
+}
+.publication-list .publication {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 0pt 0pt 50pt;
+}
+.publication-list .publication .information .title {
+  font-weight: bold;
+}
+.publication-list .publication .information {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.publication-list .publication .no-image {
+  display: none;
+}
+.publication-list .publication:last-child {
+  margin-bottom: 0;
+}
+@media screen and (min-width: 700px) {
+  .publication-list .publication {
+    flex-direction: row-reverse;
+  }
+  .publication-list .publication .image, .publication-list .publication .no-image {
+    flex: 250px 0 0;
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=genius-main.css.map */
