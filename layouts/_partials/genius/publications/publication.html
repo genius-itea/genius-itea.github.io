@@ -38,11 +38,28 @@
         {{ end }}
     </div>
     {{ with .Params.image }}
+        {{ $url := "" }}
+        {{ with $.Params.download }}
+            {{ $res := $.Resources.Get . }}
+            {{ $url = $res.Permalink }}
+        {{ else }}
+            {{ with $.Params.url }}
+                {{ $url = . }}
+            {{ else }}
+                {{ with $.Params.doi }}{{ $url = printf "https://doi.org/%s" . }} {{ end }}
+            {{ end }}
+        {{ end }}
+        {{ with $url }}
+        <a href="{{ . }}" target="_blank" class="image">
+        {{ end }}
         <div class="image">
             {{ $res := $.Resources.Get . }}
             {{ $img := ($res.Fit "220x350 webp" ) | fingerprint }}
             <img class="teaser" alt="Teaser image of {{ $.Title }}" src="{{ $img.Permalink }}">
         </div>
+        {{ with $url }}
+        </a>
+        {{ end }}
     {{ else }}
         <div class="no-image"></div>
     {{ end }}
