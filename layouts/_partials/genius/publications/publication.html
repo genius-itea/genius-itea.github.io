@@ -1,0 +1,47 @@
+<article class="publication" {{ with .Params.id }}id="{{ . }}"{{ end }}>
+    <div class="information">
+        <div class="authors">
+            {{ with .Params.authors }}
+                {{ $type := (printf "%T" . ) }}
+                {{ if eq $type "string" }}
+                    {{ . }}
+                {{ else if eq $type "[]interface {}" }}
+                    {{ delimit . ", " }}
+                {{ end }}
+            {{ end }}
+        </div>
+        <div class="title">{{ .Title }}</div>
+        <div class="additional-data">
+            {{ with .Params.kind }}
+                {{ if eq . "paper" }}
+                    {{ with $.Params.booktitle }}{{ . }}. {{ end }}
+                    {{ with $.Params.pages }}pp. {{ . }}. {{ end }}
+                    {{ with $.Params.location }}{{ . }}. {{ end }}
+                    {{ with $.Params.publicationDate }}{{ . }}. {{ end }}
+                {{ end }}
+            {{ else }}
+                {{ warnf "Publication in %s has no parameter `kind` set. Please fix it." . }}
+            {{ end }}
+        </div>
+        {{ with .Params.doi }}
+            <div class="doi">
+                DOI: <a href="https://doi.org/{{ . }}" target="_blank">{{ . }}</a>
+            </div>
+        {{ end }}
+        <div class="download">
+            {{ with .Params.download }}
+                {{ $res := ($.Resources.Get .) }}
+                <a href="{{ $res.Permalink }}" target="_blank">Download publication</a>
+            {{ end }}
+        </div>
+    </div>
+    {{ with .Params.image }}
+        <div class="image">
+            {{ $res := $.Resources.Get . }}
+            {{ $img := ($res.Fit "220x350 webp" ) | fingerprint }}
+            <img class="teaser" alt="Teaser image of {{ $.Title }}" src="{{ $img.Permalink }}">
+        </div>
+    {{ else }}
+        <div class="no-image"></div>
+    {{ end }}
+</article>
