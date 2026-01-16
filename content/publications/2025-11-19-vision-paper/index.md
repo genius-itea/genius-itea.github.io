@@ -28,7 +28,7 @@ params:
     location: 'Seoul, South Korea'
     # pages: ''
     # doi: ''
-    url: 'vision-paper.pdf'
+    # url: ''
     image: 'vision-paper.jpg'
     download: vision-paper.pdf
     id: vision-paper
