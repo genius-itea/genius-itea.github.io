@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <div class="container" role="main">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        {{ with .Content }}
+          <div class="well">
+            {{.}}
+          </div>
+        {{ end }}
+        <div class="publication-list">
+          {{ $pages := .Pages }}
+          {{ $groups := $pages.GroupByDate "2006" }}
+          {{ range $groups }}
+            <h2>{{ .Key }}</h2>
+            {{ $gpages := .Pages }}
+            <!-- Plain: {{ range $gpages }}{{ . }}, {{end }}<br> -->
+            <!-- {{ $gpages = $gpages.ByWeight }} -->
+            <!-- BzWeight: {{ range $gpages }}{{ .RelPermalink }}: {{.Weight }}, {{.Date}}<br>{{end }}<br> -->
+            <!-- {{ $gpages = ($gpages.Reverse.ByParam "date").Reverse }} -->
+            <!-- {{ $gpages = sort $gpages "Date" "desc" }} -->
+            {{ $gpages = ($gpages.Reverse.ByDate).Reverse }}
+            <!-- ByDate: {{ range $gpages }}{{ .RelPermalink }}: {{.Weight }}, {{.Date}}<br>{{end }}<br> -->
+            {{ range $gpages }}
+              {{ partial "genius/publications/publication.html" . }}
+            {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

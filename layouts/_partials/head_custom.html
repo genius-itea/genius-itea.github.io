@@ -28,7 +28,7 @@ Or you can delete these file if you don't need it.
     <link rel="stylesheet" href="{{ .RelPermalink }}" integrity=".Data.Integrity" crossorigin="anonymous">
   {{ end }}
 {{ else }}
-  {{ with $css }}
+  {{ with $css | fingerprint }}
     <link rel="stylesheet" href="{{ .RelPermalink }}">
   {{ end }}
 {{ end }}
