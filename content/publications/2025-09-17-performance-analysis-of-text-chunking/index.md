@@ -12,7 +12,7 @@ params:
     kind: paper
 
     authors:
-        - Salih Dündar,
+        - Salih Dündar
         - Öykü Şahin
         - Mehmet Ali Özer
     
