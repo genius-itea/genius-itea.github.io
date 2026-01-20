@@ -39,6 +39,9 @@ params:
     # If no image is given, an empty placeholder is presented instead.
     # image: ''
 
+    # The name of the file to attach as download (in the same bundle). Can be left unset.
+    # download: ''
+
     # A unique id for later referencing the publication. Can be left unset.
     # This should be a short and easy to type string, e.g. vision-paper.
     # id: ''
