@@ -22,7 +22,7 @@
   "homepage": "https://github.com/genius-itea/website#readme",
   "devDependencies": {
     "hugo-extended": "^0.154.5",
-    "sass-embedded": "^1.97.2"
+    "sass-embedded": "^1.97.3"
   },
   "overrides": {
     "sass": "0.0.0-do-never-install"
