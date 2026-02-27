@@ -36,10 +36,13 @@ jobs:
             echo EOF
           } >> "$GITHUB_OUTPUT"
 
-      - name: Install and Build
+      - name: Install the dependencies
+        if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
+        run: npm ci
+
+      - name: Build preview
         if: github.event.action != 'closed' # You might want to skip the build if the PR has been closed
         run: |
-          npm install
           echo "Using base URL ${{ steps.url.outputs.URL }}"
           npm run build -- \
             --environment stage \
