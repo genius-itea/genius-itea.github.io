@@ -5,7 +5,8 @@
         flex-direction: column;
         gap: 20px;
         
-        margin: 0pt 0pt 50pt;
+        padding: 25pt 0 25pt;
+        border-bottom: 1px solid #BBB;
         
         .information {
             
@@ -25,7 +26,8 @@
         }
 
         &:last-child {
-            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
         }
 
         @media screen and (min-width: 700px) {
