@@ -9,6 +9,13 @@ menu:
         parent: results
         weight: 1
 url: /pubs
+
+build:
+    render: always
+cascade:
+    build:
+        list: local
+        render: never
 ---
 
 <!-- Here you will find a list of publications produced as part of the GENIUS project. -->
