@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/genius-itea/website#readme",
   "devDependencies": {
-    "hugo-extended": "^0.160.1",
+    "hugo-extended": "^0.161.0",
     "sass-embedded": "^1.99.0"
   },
   "overrides": {
