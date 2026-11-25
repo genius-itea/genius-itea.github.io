@@ -1,18 +1,27 @@
 version: 2
+
 updates:
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: weekly
     groups:
+      hugo:
+        applies-to: version-updates
+        patterns:
+          - "hugo-extended"
+
       sass:
         applies-to: version-updates
         patterns:
           - "sass-embedded*"
+
       minor:
         applies-to: version-updates
         exclude-patterns:
           - "sass-embedded*"
+          - "hugo-extended"
+
   - package-ecosystem: github-actions
     directory: /
     schedule:
